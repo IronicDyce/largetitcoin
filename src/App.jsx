@@ -120,7 +120,7 @@ export default function Home() {
               {[ 
                 { icon: "🔥", title: "Explosive Growth Potential", desc: "No sagging here. Perky tiddie-defying gravitiy tech." },
                 { icon: "🔒", title: "Locked & Loaded", desc: "Liquidity burned, contract renounced. Zero tax." },
-                { icon: "📈", title: "Profitable Curves", desc: "Our curves don’t lie — neither do our returns." },
+                { icon: "📈", title: "Zero Utility, Infinite Appeal", desc: "Because let's be honest -- you're not here for tech. You're here for the tits and the ticker" },
                 { icon: "🌐", title: "Community Oriented", desc: "A token for the bold, the based, and bag-holders who like their profits like their tokens -- Perky and Large!" }
               ].map((item, idx) => (
                 <div key={idx} className="bg-black/60 border border-[#14da3f] p-2 rounded-md hover:scale-105 transform transition duration-200 w-full mx-auto flex flex-col justify-start text-left h-full">
