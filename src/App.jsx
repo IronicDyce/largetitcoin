@@ -118,10 +118,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-1 md:gap-1">
             <div className="w-full max-w-sm grid gap-8 md:mr-2 h-[500px]">
               {[ 
-                { icon: "🔥", title: "Explosive Growth Potential", desc: "The chart only goes up. Period." },
-                { icon: "🔒", title: "100% Safe & Secure", desc: "Liquidity burned, contract renounced. Zero tax." },
+                { icon: "🔥", title: "Explosive Growth Potential", desc: "No sagging here. Perky tiddie-defying gravitiy tech." },
+                { icon: "🔒", title: "Locked & Loaded", desc: "Liquidity burned, contract renounced. Zero tax." },
                 { icon: "📈", title: "Profitable Curves", desc: "Our curves don’t lie — neither do our returns." },
-                { icon: "🌐", title: "Growing Community", desc: "Thousands strong and rising." }
+                { icon: "🌐", title: "Community Oriented", desc: "A token for the bold, the based, and bag-holders who like their profits like their tokens -- Perky and Large!" }
               ].map((item, idx) => (
                 <div key={idx} className="bg-black/60 border border-[#14da3f] p-2 rounded-md hover:scale-105 transform transition duration-200 w-full mx-auto flex flex-col justify-start text-left h-full">
                   <div className="flex items-center gap-2 mb-1">
