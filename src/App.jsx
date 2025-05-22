@@ -7,10 +7,6 @@ const siteConfig = {
   chartLink: "https://dexscreener.com/solana/8KKuRsYWi6aYP8oGTuGMU13fWcp2xTxx1drMUWdm5PNL",
   buyLink: "https://raydium.io/swap/?inputMint=sol&outputMint=8KKuRsYWi6aYP8oGTuGMU13fWcp2xTxx1drMUWdm5PNL",
   description: "The Only Pair That Never Dips.\n $PNL lifts portfolios and spirits -- naturally.",
-  stats: [
-    { label: "Total Supply", value: "1,000,000,000" },
-    { label: "Tax", value: "0%" }
-  ],
   phantom: "https://phantom.app/",
   solflare: "https://solflare.com/",
   binance: "https://www.binance.com/",
