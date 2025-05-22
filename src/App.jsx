@@ -192,7 +192,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <div className="relative flex flex-col items-center gap-6 before:absolute before:top-0 before:bottom-0 before:left-1/2 before:w-1 before:bg-[#14da3f] before:z-0">
               {[1, 2, 3, 4].map((phase, idx) => (
-                <div key={idx} className={`w-full max-w-sm relative z-10 ${idx % 2 === 0 ? 'self-start' : 'self-end'}`}>
+                <div key={idx} className={`w-full max-w-sm relative z-10 px-4 ${idx % 2 === 0 ? 'self-start' : 'self-end'}`}>
                   <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-[160%] w-6 h-6 rounded-full bg-[#14da3f] text-black font-bold flex items-center justify-center z-20">
                     {phase}
                   </div>
