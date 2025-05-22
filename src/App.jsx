@@ -15,7 +15,7 @@ const siteConfig = {
   raydium: "https://raydium.io/",
   jupiter: "https://jup.ag/",
   contractAddress: "8KKuRsYWi6aYP8oGTuGMU13fWcp2xTxx1drMUWdm5PNL",
-  twitter: "https://twitter.com/",
+  twitter: "https://x.com/i/communities/1922657992870404367",
   telegram: "https://t.me/",
   discord: "https://discord.com/invite/"
 };
@@ -210,24 +210,23 @@ export default function Home() {
                       ].map((item, i) => <li key={i}>{item}</li>)}
                       {idx === 1 && [
                         "CEX listings",
-                        "Partnerships with influencers",
+                        "Influencer Partnerships",
                         "Community expansion",
                         "Meme contests",
                         "Trending on social platforms"
                       ].map((item, i) => <li key={i}>{item}</li>)}
                       {idx === 2 && [
                         "Major exchange listings",
-                        "Merchandise store",
+                        "Merchandise",
                         "Global marketing campaigns",
                         "Community governance",
                         "Charitable initiatives"
                       ].map((item, i) => <li key={i}>{item}</li>)}
                       {idx === 3 && [
                         "PNL ecosystem development",
-                        "Strategic acquisitions",
+                        "NFTs",
                         "Cross-chain expansion",
-                        "PNL metaverse integration",
-                        "Global crypto domination"
+                        "Strategic Buybacks"
                       ].map((item, i) => <li key={i}>{item}</li>)}
                     </ul>
                   </div>
