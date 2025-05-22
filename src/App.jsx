@@ -245,7 +245,7 @@ export default function Home() {
             How to Buy
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto mb-12">
-            Follow these simple steps to get your hands on the most profitable curves in crypto.
+            Follow these simple steps to get your hands on the most profitable tiddies in crypto.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[{
