@@ -334,7 +334,7 @@ export default function Home() {
             Join Our Community
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto mb-12">
-            Be part of the fastest-growing community in the Solana ecosystem.
+            Stay current with latest updates and memes!
           </p>
           <div className="relative w-[500px] h-[500px] mx-auto mb-12">
             <div className="absolute -inset-1 bg-gradient-to-r from-[#14da3f] to-green-500 rounded-2xl blur-xl animate-pulse opacity-70"></div>
