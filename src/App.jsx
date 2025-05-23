@@ -15,7 +15,7 @@ const siteConfig = {
   raydium: "https://raydium.io/",
   jupiter: "https://jup.ag/",
   contractAddress: "C89awGttXkFLS1LYtT6k6hDqRv2SqjAcQWkNcZu5fHUB",
-  twitter: "https://x.com/i/communities/1922657992870404367",
+  twitter: "https://x.com/i/communities/1921944564644159814",
   telegram: "https://t.me/",
   discord: "https://discord.com/invite/"
 };
