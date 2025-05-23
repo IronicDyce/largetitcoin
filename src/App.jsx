@@ -2,11 +2,11 @@ import React from "react";
 import { FaTwitter, FaTelegramPlane, FaDiscord } from "react-icons/fa";
 
 const siteConfig = {
-  siteName: "Perky N Large",
-  ctaText: "Buy $PNL",
-  chartLink: "https://dexscreener.com/solana/8KKuRsYWi6aYP8oGTuGMU13fWcp2xTxx1drMUWdm5PNL",
-  buyLink: "https://raydium.io/swap/?inputMint=sol&outputMint=8KKuRsYWi6aYP8oGTuGMU13fWcp2xTxx1drMUWdm5PNL",
-  description: "The Only Pair That Never Dips.\n $PNL lifts portfolios and spirits -- naturally.",
+  siteName: "MoonHub",
+  ctaText: "Buy $MOONHUB",
+  chartLink: "https://dexscreener.com/solana/C89awGttXkFLS1LYtT6k6hDqRv2SqjAcQWkNcZu5fHUB",
+  buyLink: "https://raydium.io/swap/?inputMint=sol&outputMint=C89awGttXkFLS1LYtT6k6hDqRv2SqjAcQWkNcZu5fHUB",
+  description: "Where your portfolio gets harder than your browser history.\n ",
   stats: [],
   phantom: "https://phantom.app/",
   solflare: "https://solflare.com/",
@@ -14,7 +14,7 @@ const siteConfig = {
   coinbase: "https://www.coinbase.com/",
   raydium: "https://raydium.io/",
   jupiter: "https://jup.ag/",
-  contractAddress: "8KKuRsYWi6aYP8oGTuGMU13fWcp2xTxx1drMUWdm5PNL",
+  contractAddress: "C89awGttXkFLS1LYtT6k6hDqRv2SqjAcQWkNcZu5fHUB",
   twitter: "https://x.com/i/communities/1922657992870404367",
   telegram: "https://t.me/",
   discord: "https://discord.com/invite/"
@@ -26,44 +26,44 @@ export default function Home() {
       <style>
         {`
           .glow-flicker {
-            color: #14da3f;
+            color: #FFA500;
             animation: subtlePulse 2.5s ease-in-out infinite;
-            filter: drop-shadow(0 0 2px #14da3f);
+            filter: drop-shadow(0 0 2px #FFA500);
           }
 
           @keyframes subtlePulse {
-            0%, 100% { filter: drop-shadow(0 0 2px #14da3f); }
-            50% { filter: drop-shadow(0 0 4px #14da3f); }
+            0%, 100% { filter: drop-shadow(0 0 2px #FFA500); }
+            50% { filter: drop-shadow(0 0 4px #FFA500); }
           }
 
           .section-divider {
             height: 2px;
-            background-color: #14da3f;
+            background-color: #FFA500;
             margin: 0;
             border: none;
             opacity: 0.6;
           }
 
           section {
-            background: linear-gradient(to bottom, #011801, #000000);
+            background: linear-gradient(to bottom, #0a0a0a, #000000);
           }
         `}
       </style>
 
-      <header className="bg-black py-4 border-b border-[#14da3f] sticky top-0 z-50">
+      <header className="bg-black py-4 border-b border-[#FFA500] sticky top-0 z-50">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <img src="/images/logo.png" alt="Logo" className="w-6 h-6 rounded-full" />
-            <span className="text-[#14da3f] font-bold text-lg">PNL</span>
+            <span className="text-[#FFA500] font-bold text-lg">MOONHUB</span>
           </div>
           <nav className="flex gap-6 text-white text-sm">
-            <a href="#about" className="hover:text-[#14da3f]">About</a>
-            <a href="#tokenomics" className="hover:text-[#14da3f]">Tokenomics</a>
-            <a href="#Roadmap" className="hover:text-[#14da3f]">Roadmap</a>
-            <a href="#how-to-buy" className="hover:text-[#14da3f]">How to Buy</a>
-            <a href="#community" className="hover:text-[#14da3f]">Our Community</a>
+            <a href="#about" className="hover:text-[#FFA500]">About</a>
+            <a href="#tokenomics" className="hover:text-[#FFA500]">Tokenomics</a>
+            <a href="#Roadmap" className="hover:text-[#FFA500]">Roadmap</a>
+            <a href="#how-to-buy" className="hover:text-[#FFA500]">How to Buy</a>
+            <a href="#community" className="hover:text-[#FFA500]">Our Community</a>
           </nav>
-          <a href={siteConfig.buyLink} className="bg-[#14da3f] text-black font-bold py-2 px-4 rounded-md shadow hover:scale-105 transform transition-transform duration-200">
+          <a href={siteConfig.buyLink} className="bg-[#FFA500] text-black font-bold py-2 px-4 rounded-md shadow hover:scale-105 transform transition-transform duration-200">
             Buy Now
           </a>
         </div>
@@ -71,25 +71,25 @@ export default function Home() {
 
       <section className="relative py-20 md:py-32 overflow-hidden bg-black text-white">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-[#14da3f]/20 to-[#14da3f]/10"></div>
-          <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-[#14da3f]/10 blur-[100px] rounded-full"></div>
-          <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#14da3f]/10 blur-[100px] rounded-full"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-[#FFA500]/20 to-[#FFA500]/10"></div>
+          <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-[#FFA500]/10 blur-[100px] rounded-full"></div>
+          <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-[#FFA500]/10 blur-[100px] rounded-full"></div>
         </div>
 
         <div className="container mx-auto px-4 relative z-10 flex flex-col-reverse md:flex-row items-center justify-center gap-4 md:gap-12">
           <div className="md:w-1/2 max-w-md text-left md:text-left">
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-              <span className="glow-flicker">P</span>erky <span className="glow-flicker">N</span> <span className="glow-flicker">L</span>arge
+              <span className="glow-flicker">MOONHUB</span>
             </h1>
-            <p className="text-base md:text-lg text-gray-300 mt-6 px-4 py-3 border border-[#14da3f] rounded-lg inline-block whitespace-pre-line">
+            <p className="text-base md:text-lg text-gray-300 mt-6 px-4 py-3 border border-[#FFA500] rounded-lg inline-block whitespace-pre-line">
               {siteConfig.description}
             </p>
 
             <div className="flex flex-wrap justify-center md:justify-start gap-3 my-6">
-              <a href={siteConfig.buyLink} className="bg-gradient-to-r from-[#14da3f] to-green-500 text-white font-bold px-5 py-2.5 rounded-md shadow transform transition-transform duration-200 hover:scale-105">
+              <a href={siteConfig.buyLink} className="bg-gradient-to-r from-[#FFA500] to-orange-500 text-white font-bold px-5 py-2.5 rounded-md shadow transform transition-transform duration-200 hover:scale-105">
                 {siteConfig.ctaText} <span className="ml-2">→</span>
               </a>
-              <a href={siteConfig.chartLink} className="border-2 border-[#14da3f] text-[#14da3f] px-5 py-2.5 rounded-md transform transition-transform duration-200 hover:scale-105">
+              <a href={siteConfig.chartLink} className="border-2 border-[#FFA500] text-[#FFA500] px-5 py-2.5 rounded-md transform transition-transform duration-200 hover:scale-105">
                 View Chart ↗
               </a>
             </div>
@@ -97,11 +97,11 @@ export default function Home() {
 
           <div className="md:w-1/2 max-w-md relative">
             <div className="relative w-64 h-64 md:w-72 md:h-72 mx-auto md:ml-8">
-              <div className="absolute -inset-1 bg-gradient-to-r from-[#14da3f] to-green-500 rounded-2xl blur-xl animate-pulse opacity-70"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-[#FFA500] to-orange-500 rounded-2xl blur-xl animate-pulse opacity-70"></div>
               <img
                 src="/images/logo.png"
                 alt="Logo"
-                className="relative z-10 rounded-2xl w-full h-full object-contain border-4 border-[#14da3f]"
+                className="relative z-10 rounded-2xl w-full h-full object-contain border-4 border-[#FFA500]"
               />
             </div>
           </div>
@@ -113,20 +113,20 @@ export default function Home() {
         <section id="about" className="bg-black text-white py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-            About <span className="text-[#14da3f] glow-flicker">PNL</span>
+            About <span className="text-[#FFA500] glow-flicker">MOONHUB</span>
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-1 md:gap-1">
             <div className="w-full max-w-sm grid gap-8 md:mr-2 h-[500px]">
               {[ 
-                { icon: "🔥", title: "Explosive Growth Potential", desc: "No sagging here. Perky tiddie-defying gravitiy tech." },
-                { icon: "🔒", title: "Locked & Loaded", desc: "Liquidity burned, contract renounced. Zero tax." },
-                { icon: "📈", title: "Zero Utility, Infinite Appeal", desc: "Because let's be honest -- you're not here for tech. You're here for the tits and the ticker." },
-                { icon: "🌐", title: "Community Oriented", desc: "A token for the bold, the based, and bag-holders who like their profits like their tokens -- Perky and Large!" }
+                { icon: "🔥", title: "Explosive Growth Potential", desc: "The chart's got more lift than a push-up bra. No whishy dick here -- full erection to the moon" },
+                { icon: "🔒", title: "Locked & Loaded for Launch", desc: "From Memes to Moonshots, MoonHub is here to break charts and timelines" },
+                { icon: "📈", title: "Designed for the Culture", desc: "Moonhub gets it. This isn't about utility - it's about virality, vibes, and full-on-erect volume. if it slaps, it launches" },
+                { icon: "🌐", title: "Community Oriented", desc: "A token for the bold, the based, and bag-holders who like their profits like their tokens" }
               ].map((item, idx) => (
-                <div key={idx} className="bg-black/60 border border-[#14da3f] p-2 rounded-md hover:scale-105 transform transition duration-200 w-full mx-auto flex flex-col justify-start text-left h-full">
+                <div key={idx} className="bg-black/60 border border-[#FFA500] p-2 rounded-md hover:scale-105 transform transition duration-200 w-full mx-auto flex flex-col justify-start text-left h-full">
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-xl">{item.icon}</span>
-                    <h3 className="text-sm font-bold text-[#14da3f]">{item.title}</h3>
+                    <h3 className="text-sm font-bold text-[#FFA500]">{item.title}</h3>
                   </div>
                   <p className="text-gray-400 text-sm">{item.desc}</p>
                 </div>
@@ -134,11 +134,11 @@ export default function Home() {
             </div>
 
             <div className="relative w-[500px] h-[500px] ml-4">
-              <div className="absolute -inset-1 bg-gradient-to-r from-[#14da3f] to-green-500 rounded-2xl blur-xl animate-pulse opacity-70"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-[#FFA500] to-orange-500 rounded-2xl blur-xl animate-pulse opacity-70"></div>
               <img
                 src="/images/about.png"
                 alt="About"
-                className="relative z-10 rounded-2xl w-full h-full object-contain border-4 border-[#14da3f]"
+                className="relative z-10 rounded-2xl w-full h-full object-contain border-4 border-[#FFA500]"
               />
             </div>
           </div>
@@ -157,22 +157,22 @@ export default function Home() {
               { label: "Tax", value: "0%", icon: "🚫" },
               { label: "Liquidity", value: "100% Burned", icon: "🔥" }
             ].map((item, idx) => (
-              <div key={idx} className="bg-black/60 border border-[#14da3f] px-1 py-0.5 rounded-md hover:scale-105 transform transition duration-200">
+              <div key={idx} className="bg-black/60 border border-[#FFA500] px-1 py-0.5 rounded-md hover:scale-105 transform transition duration-200">
                 <div className="flex flex-col items-center gap-2 mb-2">
                   <span className="text-2xl">{item.icon}</span>
-                  <h3 className="text-lg font-bold text-[#14da3f] text-center">{item.label}</h3>
+                  <h3 className="text-lg font-bold text-[#FFA500] text-center">{item.label}</h3>
                 </div>
-                <p className="text-lg md:text-xl font-bold text-[#14da3f] whitespace-nowrap">{item.value}</p>
+                <p className="text-lg md:text-xl font-bold text-[#FFA500] whitespace-nowrap">{item.value}</p>
               </div>
             ))}
           </div>
         </div>
         <div className="relative w-[500px] h-[500px] mx-auto mt-12 mb-12">
-          <div className="absolute -inset-1 bg-gradient-to-r from-[#14da3f] to-green-500 rounded-2xl blur-xl animate-pulse opacity-70"></div>
+          <div className="absolute -inset-1 bg-gradient-to-r from-[#FFA500] to-orange-500 rounded-2xl blur-xl animate-pulse opacity-70"></div>
           <img
             src="/images/tokenomics.png"
             alt="Tokenomics" 
-            className="relative z-10 rounded-2xl w-full h-full object-contain border-4 border-[#14da3f]"
+            className="relative z-10 rounded-2xl w-full h-full object-contain border-4 border-[#FFA500]"
           />
         </div>
       </section>
@@ -190,14 +190,14 @@ export default function Home() {
           </p>
 
           <div className="max-w-4xl mx-auto">
-            <div className="relative flex flex-col items-center gap-6 before:absolute before:top-0 before:bottom-0 before:left-1/2 before:w-1 before:bg-[#14da3f] before:z-0">
+            <div className="relative flex flex-col items-center gap-6 before:absolute before:top-0 before:bottom-0 before:left-1/2 before:w-1 before:bg-[#FFA500] before:z-0">
               {[1, 2, 3, 4].map((phase, idx) => (
                 <div key={idx} className={`w-full max-w-sm relative z-10 px-4 ${idx % 2 === 0 ? 'self-start' : 'self-end'}`}>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-[160%] w-6 h-6 rounded-full bg-[#14da3f] text-black font-bold flex items-center justify-center z-20">
+                  <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-[160%] w-6 h-6 rounded-full bg-[#FFA500] text-black font-bold flex items-center justify-center z-20">
                     {phase}
                   </div>
-                  <div className="bg-black/60 border border-[#14da3f] rounded-md p-2 text-left shadow-sm max-w-sm w-full">
-                    <h3 className="text-lg font-bold text-[#14da3f] mb-2">
+                  <div className="bg-black/60 border border-[#FFA500] rounded-md p-2 text-left shadow-sm max-w-sm w-full">
+                    <h3 className="text-lg font-bold text-[#FFA500] mb-2">
                       {`Phase ${phase}: ${['Launch', 'Growth', 'Expansion', 'Domination'][idx]}`}
                     </h3>
                     <ul className="list-disc list-inside text-sm text-gray-300">
@@ -223,7 +223,7 @@ export default function Home() {
                         "Charitable initiatives"
                       ].map((item, i) => <li key={i}>{item}</li>)}
                       {idx === 3 && [
-                        "PNL ecosystem development",
+                        "Necosystem development",
                         "NFTs",
                         "Cross-chain expansion",
                         "Strategic Buybacks"
@@ -284,13 +284,13 @@ export default function Home() {
                 ]
               }
             ].map((item, idx) => (
-              <div key={idx} className="bg-black/60 border border-[#14da3f] p-6 rounded-lg shadow-md hover:scale-105 transform transition duration-200 text-left">
+              <div key={idx} className="bg-black/60 border border-[#FFA500] p-6 rounded-lg shadow-md hover:scale-105 transform transition duration-200 text-left">
                 <div className="flex items-center mb-4">
-                  <div className="w-8 h-8 flex items-center justify-center bg-[#14da3f] text-black font-bold rounded-full mr-3">
+                  <div className="w-8 h-8 flex items-center justify-center bg-[#FFA500] text-black font-bold rounded-full mr-3">
                     {item.step}
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-[#14da3f]">{item.title}</h3>
+                    <h3 className="text-lg font-bold text-[#FFA500]">{item.title}</h3>
                     <p className="text-sm text-gray-300">{item.desc}</p>
                   </div>
                 </div>
@@ -301,7 +301,7 @@ export default function Home() {
                         <button
                           key={bIdx}
                           onClick={() => navigator.clipboard.writeText(btn.name)}
-                          className="bg-black border border-[#14da3f] text-[#14da3f] text-xs px-3 py-1 rounded hover:bg-[#14da3f] hover:text-black transition"
+                          className="bg-black border border-[#FFA500] text-[#FFA500] text-xs px-3 py-1 rounded hover:bg-[#FFA500] hover:text-black transition"
                         >
                           Copy Contract
                         </button>
@@ -311,7 +311,7 @@ export default function Home() {
                           href={btn.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="bg-black border border-[#14da3f] text-[#14da3f] text-xs px-3 py-1 rounded hover:bg-[#14da3f] hover:text-black transition"
+                          className="bg-black border border-[#FFA500] text-[#FFA500] text-xs px-3 py-1 rounded hover:bg-[#FFA500] hover:text-black transition"
                         >
                           {btn.name}
                         </a>
@@ -337,11 +337,11 @@ export default function Home() {
             Stay current with latest updates and memes!
           </p>
           <div className="relative w-[500px] h-[500px] mx-auto mb-12">
-            <div className="absolute -inset-1 bg-gradient-to-r from-[#14da3f] to-green-500 rounded-2xl blur-xl animate-pulse opacity-70"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-[#FFA500] to-orange-500 rounded-2xl blur-xl animate-pulse opacity-70"></div>
             <img
               src="/images/community.png"
               alt="Community Visual"
-              className="relative z-10 rounded-2xl w-full h-full object-contain border-4 border-[#14da3f]"
+              className="relative z-10 rounded-2xl w-full h-full object-contain border-4 border-[#FFA500]"
             />
           </div>
 
@@ -352,21 +352,21 @@ export default function Home() {
                 desc: "Follow us for the latest updates",
                 cta: "Join Now →",
                 url: siteConfig.twitter,
-                icon: <FaTwitter className="text-[#14da3f] text-2xl mb-2 mx-auto" />,
+                icon: <FaTwitter className="text-[#FFA500] text-2xl mb-2 mx-auto" />,
               },
               {
                 name: "Telegram",
                 desc: "Chat with the community",
                 cta: "Join Now →",
                 url: siteConfig.telegram,
-                icon: <FaTelegramPlane className="text-[#14da3f] text-2xl mb-2 mx-auto" />,
+                icon: <FaTelegramPlane className="text-[#FFA500] text-2xl mb-2 mx-auto" />,
               },
               {
                 name: "Discord",
                 desc: "Join our growing community",
                 cta: "Join Now →",
                 url: siteConfig.discord,
-                icon: <FaDiscord className="text-[#14da3f] text-2xl mb-2 mx-auto" />,
+                icon: <FaDiscord className="text-[#FFA500] text-2xl mb-2 mx-auto" />,
               },
             ].map((item, idx) => (
               <a
@@ -374,12 +374,12 @@ export default function Home() {
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-black/60 border border-[#14da3f] p-6 rounded-lg hover:scale-105 transform transition duration-200 block"
+                className="bg-black/60 border border-[#FFA500] p-6 rounded-lg hover:scale-105 transform transition duration-200 block"
               >
                 {item.icon}
-                <h3 className="text-lg font-bold text-[#14da3f] mb-1">{item.name}</h3>
+                <h3 className="text-lg font-bold text-[#FFA500] mb-1">{item.name}</h3>
                 <p className="text-sm text-gray-300 mb-2">{item.desc}</p>
-                <span className="text-sm text-[#14da3f] hover:underline">{item.cta}</span>
+                <span className="text-sm text-[#FFA500] hover:underline">{item.cta}</span>
               </a>
             ))}
           </div>
@@ -389,6 +389,5 @@ export default function Home() {
     </>
   );
 }
-
 
 
