@@ -277,7 +277,7 @@ export default function Home() {
               },
               {
                 step: 4,
-                title: "Swap for $PNL",
+                title: "Swap for $MOONHUB",
                 desc: "Use our contract address",
                 extra: [
                   { name: siteConfig.contractAddress, url: "#", isCopyable: true }
