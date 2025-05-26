@@ -4,8 +4,8 @@ import { FaTwitter, FaTelegramPlane, FaDiscord } from "react-icons/fa";
 const siteConfig = {
   siteName: "largetitocin",
   ctaText: "Buy $LTC",
-  chartLink: "https://dexscreener.com/solana/C89awGttXkFLS1LYtT6k6hDqRv2SqjAcQWkNcZu5fHUB",
-  buyLink: "https://raydium.io/swap/?inputMint=sol&outputMint=C89awGttXkFLS1LYtT6k6hDqRv2SqjAcQWkNcZu5fHUB",
+  chartLink: "https://dexscreener.com/solana/CdjVc6kdKW8X6HtXpijQ6TuGxjxEvUpZJBEq8GXHdKsU",
+  buyLink: "https://raydium.io/swap/?inputMint=sol&outputMint=CdjVc6kdKW8X6HtXpijQ6TuGxjxEvUpZJBEq8GXHdKsU",
   description: "Where your portfolio gets harder than your browser history.\n ",
   stats: [],
   phantom: "https://phantom.app/",
@@ -14,8 +14,8 @@ const siteConfig = {
   coinbase: "https://www.coinbase.com/",
   raydium: "https://raydium.io/",
   jupiter: "https://jup.ag/",
-  contractAddress: "C89awGttXkFLS1LYtT6k6hDqRv2SqjAcQWkNcZu5fHUB",
-  twitter: "https://x.com/i/communities/1921944564644159814",
+  contractAddress: "CdjVc6kdKW8X6HtXpijQ6TuGxjxEvUpZJBEq8GXHdKsU",
+  twitter: "https://x.com/largetitcoinSOL",
   telegram: "https://t.me/",
   discord: "https://discord.com/invite/"
 };
