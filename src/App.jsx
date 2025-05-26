@@ -2,8 +2,8 @@ import React from "react";
 import { FaTwitter, FaTelegramPlane, FaDiscord } from "react-icons/fa";
 
 const siteConfig = {
-  siteName: "MoonHub",
-  ctaText: "Buy $MOONHUB",
+  siteName: "largetitocin",
+  ctaText: "Buy $LTC",
   chartLink: "https://dexscreener.com/solana/C89awGttXkFLS1LYtT6k6hDqRv2SqjAcQWkNcZu5fHUB",
   buyLink: "https://raydium.io/swap/?inputMint=sol&outputMint=C89awGttXkFLS1LYtT6k6hDqRv2SqjAcQWkNcZu5fHUB",
   description: "Where your portfolio gets harder than your browser history.\n ",
@@ -54,7 +54,7 @@ export default function Home() {
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <img src="/images/logo.png" alt="Logo" className="w-6 h-6 rounded-full" />
-            <span className="text-[#FFA500] font-bold text-lg">MOONHUB</span>
+            <span className="text-[#FFA500] font-bold text-lg">largetitcoin</span>
           </div>
           <nav className="flex gap-6 text-white text-sm">
             <a href="#about" className="hover:text-[#FFA500]">About</a>
@@ -79,7 +79,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10 flex flex-col-reverse md:flex-row items-center justify-center gap-4 md:gap-12">
           <div className="md:w-1/2 max-w-md text-left md:text-left">
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-              <span className="glow-flicker">MOONHUB</span>
+              <span className="glow-flicker">largetitcoin</span>
             </h1>
             <p className="text-base md:text-lg text-gray-300 mt-6 px-4 py-3 border border-[#FFA500] rounded-lg inline-block whitespace-pre-line">
               {siteConfig.description}
@@ -113,7 +113,7 @@ export default function Home() {
         <section id="about" className="bg-black text-white py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-            About <span className="text-[#FFA500] glow-flicker">MOONHUB</span>
+            About <span className="text-[#FFA500] glow-flicker">largetitcoin</span>
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-1 md:gap-1">
             <div className="w-full max-w-sm grid gap-8 md:mr-2 h-[500px]">
